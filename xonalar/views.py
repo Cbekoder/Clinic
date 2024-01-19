@@ -1,7 +1,7 @@
 from rest_framework.views import APIView
-from .models import Xona, Joylashtirish
+from xonalar.models import Xona, Joylashtirish
 from register.models import Bemor
-from tolovlar.models import Tolov
+from xonalar.models import Tolov
 from rest_framework.response import Response
 from .serializers import XonaSerializer, JoylashtirishSerializer
 from rest_framework import status

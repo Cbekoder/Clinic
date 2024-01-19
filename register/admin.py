@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Bemor, Yollanma
 
-# Register your models here.
+admin.site.register(Bemor)
+admin.site.register(Yollanma)

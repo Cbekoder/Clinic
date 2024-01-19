@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Xona, Joylashtirish
+from xonalar.models import Xona, Joylashtirish
 
 class XonaSerializer(serializers.ModelSerializer):
     class Meta:
